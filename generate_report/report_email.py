@@ -2,7 +2,7 @@
 
 import os, sys
 from datetime import datetime as dt
-import emails
+#import emails
 from reportlab.platypus import SimpleDocTemplate
 from reportlab.platypus import Paragraph, Spacer, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet

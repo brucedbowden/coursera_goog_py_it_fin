@@ -12,7 +12,7 @@ def upload_descriptions(url, dir):
             lines = desc.read().strip().splitlines()
             dict = {"name": lines[0], "weight": lines[1].replace(' lbs', ''), "description": lines[2], "image": i}
             # json_string = json.dumps(dict)
-            print(json_stringct)
+            print()
             response = requests.post('http://localhost/fruits', data=dict)
            print(response.status_code)
 
